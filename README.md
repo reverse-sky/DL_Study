@@ -1,3 +1,3 @@
-# Graph 관련 공부했던 파일을 저장하는 공간입니다. 
+# Graph Neural Network 
 
 ## 2022-12-09 
