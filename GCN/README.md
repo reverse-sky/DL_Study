@@ -1,3 +1,3 @@
-# Graph Neural Network 
+# Graph Convolution Network example
 
-## 2022-12-09 
+first : Cora Dataset 
