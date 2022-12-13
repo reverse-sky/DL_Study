@@ -13,5 +13,5 @@
 
 # Simulation result
 ------
+<img src="./img/GCN_BEST_100.gif" width="500" height="500"  />
 
-![image](./img/GCN_BEST_100.gif)
