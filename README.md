@@ -6,7 +6,7 @@
 
 |Date                            |Model                           |Link                            |paper                            |
 |--------------------------------|:------------------------------:|:------------------------------:|:------------------------------:|
-|2022-12-09 ~ 2022-12-13(실험)    |Graph Convolution Network       |<a href="./GCN/Cora">GCN</a>    |[Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907)|
+|2022-12-09 ~ 2022-12-13(실험)    |Graph Convolution Network       |<a href="./Graph/GCN/Cora">GCN</a>    |[Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907)|
  
 </div>
 </details>
@@ -19,6 +19,6 @@
   
 |Date                               |Model                           |Link                            |paper                            |
 |-----------------------------------|:------------------------------:|:------------------------------:|:------------------------------:|
-|2023-05-01 ~ 2023-05-current (구현) |Transformer                     |<a href="./GCN/Cora">GCN</a>    |[Attention Is All You Need](https://arxiv.org/abs/1706.03762)|  
+|2023-05-01 ~ 2023-05-current (구현) |Transformer                     |<a href="./NLP/Transformer"></a>    |[Attention Is All You Need](https://arxiv.org/abs/1706.03762)|  
 </div>
 </details>
