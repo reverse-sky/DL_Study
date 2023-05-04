@@ -19,6 +19,6 @@
   
 |Date                               |Model                           |Link                            |paper                            |
 |-----------------------------------|:------------------------------:|:------------------------------:|:------------------------------:|
-|2023-05-01 ~ 2023-05-current (구현) |Transformer                     |<a href="./NLP/Transformer"></a>    |[Attention Is All You Need](https://arxiv.org/abs/1706.03762)|  
+|2023-05-01 ~ 2023-05-current (구현) |Transformer                     |<a href="./NLP/Transformer/">Transformer</a>    |[Attention Is All You Need](https://arxiv.org/abs/1706.03762)|  
 </div>
 </details>
