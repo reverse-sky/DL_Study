@@ -1,6 +1,7 @@
 # Plotly
 > [How_to_use_plotly.ipynb](./How_to_use_plotly.ipynb)
-> 이번에 새롭게 배워본 plot api. 생각보다 다양한 시각화 툴을 보여줌 .   
+> 이번에 새롭게 배워본 plot api를 가지고 여러가지 실험해봄 
+> 생각보다 다양한 시각화 툴을 보여줌 .   
 > [공식 문서](https://plotly.com/python/)
 
 
