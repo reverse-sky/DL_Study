@@ -34,7 +34,7 @@
 
 
 <details>
-<summary style="margin-left: 50px;">NLP</summary>
+<summary style="margin-left: 50px;">Generative</summary>
 <div style="margin-left: 25px;">
   
 |Date                               |Model                           |Link                            |paper                            |
