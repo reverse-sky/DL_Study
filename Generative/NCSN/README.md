@@ -4,16 +4,21 @@ Implementation for toy example in paper that "Generative Modeling by Estimating 
 # Summary
 + NCSN_toy_Example.ipynb : Jupyter Notebook for testing implementation
 
-+ Forward process using Multi Gaussian distribution 
++ Forward process using Multi Gaussian distribution
+> we just add Gaussian Noise
+
 <img src="./gif/forward_data.gif" width="500" height="500"  />
 
 -----
 
++ In this paper, Setting $p_{data}(x) = \frac{1}{5}N([-5,-5],I) +\frac{4}{5}N([5,5],I) $
 <img src="./gif/wrong_reverse.gif" width="500" height="500"  />
 
 -----
 
++ So, two distribution score vector filed represent like this. 
 <img src="./gif/vector_filed_two_normal.png" width="500" height="500"  />
+The image file means, score function represent mean between two distribution. 
 
 ----
 
