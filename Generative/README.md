@@ -18,6 +18,6 @@
   
 |Date                               |Model                           |Link                            |paper                            |
 |-----------------------------------|:------------------------------:|:------------------------------:|:------------------------------:|
-|---- (예정) |DDPM                     |<a href="./Generative/DDPM">DDPM</a>    |[Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)|  
+|DDPM test for grad cam|DDPM                     |<a href="./Generative/DDPM">DDPM</a>    |[Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)|  
 </div>
 </details>
