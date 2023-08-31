@@ -21,11 +21,12 @@ Implementation for toy example in paper that "Generative Modeling by Estimating 
 The image file means, score function represent mean between two distribution. 
 
 ----
-
+If you draw each vector field, you don't get a natural picture.
+(Of course in this paper, authors used autograd in pytorch package.)
 <img src="./gif/max_vectorfield.png " width="500" height="500"  />
 
 ----
-
+so, i used fc model 
 <img src="./gif/Score_network_Langevin.gif" width="500" height="500"  />
 
 -----
