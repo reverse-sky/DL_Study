@@ -74,6 +74,8 @@ so, if we train during time stpe, the vector field is show as follow.
 
 ----
 
+final result of toy project.
+
 <img src="./gif/Score_network_annealed_Langevin_sigma_max-2.gif" width="500" height="500"  />
 
 ----
