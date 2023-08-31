@@ -26,7 +26,40 @@ If you draw each vector field, you don't get a natural picture.
 <img src="./gif/max_vectorfield.png " width="500" height="500"  />
 
 ----
-so, i used fc model 
+so, i used fc model
+there are two version of model. 
+**score_network** : for Langevin Dynamics. Inputs are using only two cordinate. 
+**score_network2**: for Annealed Langevin Dynamics. Inputs shape is 3 including cordinate and sigma(noise).
+
+Langevin Dynamics for two Multilateral Gaussian Distribution
+```python
+score_network = torch.nn.Sequential(
+    torch.nn.Linear(2, 64),  # input is 2d array
+    torch.nn.LogSigmoid(),
+    torch.nn.Linear(64, 64),
+    torch.nn.LogSigmoid(),
+    torch.nn.Linear(64, 64),
+    torch.nn.LogSigmoid(),
+    torch.nn.Linear(64, 2), # output also means coordinate
+)
+```
+
+
+Annealed Langevin Dynamics version Multilateral Gaussian Distribution
+```python
+score_network2 = torch.nn.Sequential(
+    torch.nn.Linear(3, 64),
+    torch.nn.LogSigmoid(),
+    torch.nn.Linear(64, 64),
+    torch.nn.LogSigmoid(),
+    torch.nn.Linear(64, 64),
+    torch.nn.LogSigmoid(),
+    torch.nn.Linear(64, 2),
+)
+```
+
+this figure is just show the score networks gradient vector field.
+
 <img src="./gif/Score_network_Langevin.gif" width="500" height="500"  />
 
 -----
@@ -34,6 +67,8 @@ so, i used fc model
 <img src="./gif/Langevin Dynamics_Vector_field.png" width="500" height="500"  />
 
 ---
+
+so, if we train during time stpe, the vector field is show as follow.
 
 <img src="./gif/Annealed_Langevin_Dynamics_SigmaTest.png" width="1000" height="500"  />
 
