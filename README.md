@@ -42,3 +42,14 @@
 |2023-05-01 ~ 2023-05-current (구현) |NCSN                     |<a href="./Generative/NCSN/">NCSN</a>    |[Generative Modeling by Estimating Gradients of the Data Distribution]([https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1907.05600)https://arxiv.org/abs/1907.05600)|  
 </div>
 </details>
+
+<details>
+<summary style="margin-left: 50px;">CV</summary>
+<div style="margin-left: 25px;">
+
+|Date                            |Model                           |Link                            |paper                            |
+|--------------------------------|:------------------------------:|:------------------------------:|:------------------------------:|
+
+ 
+</div>
+</details>
