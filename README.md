@@ -44,7 +44,7 @@
 </details>
 
 <details>
-<summary style="margin-left: 50px;">CV</summary>
+<summary style="margin-left: 50px;">Vision</summary>
 <div style="margin-left: 25px;">
 
 |Date                            |Model                           |Link                            |paper                            |
